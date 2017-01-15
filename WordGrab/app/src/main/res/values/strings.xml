@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Word Grab</string>
+    <string name="preference_name_sound">Sound</string>
+    <string name="preference_name_game_mode">Game Mode</string>
+    <string name="preference_name_difficulty">Difficulty</string>
+    <string name="preference_filename">preferences</string>
+    <string name="game_mode_description_rack">Letters keep coming. You have 90 seconds to make and submit as many words as possible!</string>
+    <string name="game_mode_description_grid">Letters keep coming. You have 2 minutes to fill the grid with words for as many points as possible!</string>
+    <string name="rack_game_mode_title">Rack</string>
+    <string name="grid_game_mode_title">Grid</string>
+    <string name="unscramble_game_mode_title">Unscramble</string>
+    <string name="game_mode_description_unscramble">Unscramble words for as long as you can last. But watch out they get trickier with time!</string>
+    <string name="preference_name_musicon">MusicOn</string>
+    <string-array name="difficulty_names">
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    >
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="2" >
+    </Space>
+
+    <!---->
+    <ImageView android:id="@+id/title_screen_title"
+        android:background="@color/colorSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/wordgrab"
+        />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="4" >
+    </Space>
+
+    <ImageButton android:id="@+id/title_screen_play_button"
+        android:background="@color/colorSecondary"
+        android:scaleType="centerInside"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playpurple"
+        />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/sound_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorSecondary"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/soundon"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.3" >
+        </Space>
+
+        <ImageButton
+            android:id="@+id/music_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorSecondary"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/soundon"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </Space>
+
+</LinearLayout>
